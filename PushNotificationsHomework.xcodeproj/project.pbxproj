@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA128775206CE0AB0002DB8D /* MainNotificationsInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA128774206CE0AB0002DB8D /* MainNotificationsInformationTableViewController.swift */; };
+		AA128777206CE33A0002DB8D /* DetailOfNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA128776206CE33A0002DB8D /* DetailOfNotificationViewController.swift */; };
+		AA128779206CE3C60002DB8D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA128778206CE3C60002DB8D /* ImageViewController.swift */; };
 		AAB450F5206CD14C00391755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB450F4206CD14C00391755 /* AppDelegate.swift */; };
-		AAB450F7206CD14C00391755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB450F6206CD14C00391755 /* ViewController.swift */; };
 		AAB450FA206CD14C00391755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB450F8206CD14C00391755 /* Main.storyboard */; };
 		AAB450FD206CD14C00391755 /* PushNotificationsHomework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAB450FB206CD14C00391755 /* PushNotificationsHomework.xcdatamodeld */; };
 		AAB450FF206CD14C00391755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB450FE206CD14C00391755 /* Assets.xcassets */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA128774206CE0AB0002DB8D /* MainNotificationsInformationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNotificationsInformationTableViewController.swift; sourceTree = "<group>"; };
+		AA128776206CE33A0002DB8D /* DetailOfNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfNotificationViewController.swift; sourceTree = "<group>"; };
+		AA128778206CE3C60002DB8D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		AAB450F1206CD14C00391755 /* PushNotificationsHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationsHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB450F4206CD14C00391755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAB450F6206CD14C00391755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAB450F9206CD14C00391755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAB450FC206CD14C00391755 /* PushNotificationsHomework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PushNotificationsHomework.xcdatamodel; sourceTree = "<group>"; };
 		AAB450FE206CD14C00391755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				AAB450F4206CD14C00391755 /* AppDelegate.swift */,
-				AAB450F6206CD14C00391755 /* ViewController.swift */,
 				AAB450F8206CD14C00391755 /* Main.storyboard */,
 				AAB450FE206CD14C00391755 /* Assets.xcassets */,
 				AAB45100206CD14C00391755 /* LaunchScreen.storyboard */,
 				AAB45103206CD14C00391755 /* Info.plist */,
 				AAB450FB206CD14C00391755 /* PushNotificationsHomework.xcdatamodeld */,
+				AA128774206CE0AB0002DB8D /* MainNotificationsInformationTableViewController.swift */,
+				AA128776206CE33A0002DB8D /* DetailOfNotificationViewController.swift */,
+				AA128778206CE3C60002DB8D /* ImageViewController.swift */,
 			);
 			path = PushNotificationsHomework;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB450F7206CD14C00391755 /* ViewController.swift in Sources */,
+				AA128775206CE0AB0002DB8D /* MainNotificationsInformationTableViewController.swift in Sources */,
+				AA128777206CE33A0002DB8D /* DetailOfNotificationViewController.swift in Sources */,
+				AA128779206CE3C60002DB8D /* ImageViewController.swift in Sources */,
 				AAB450F5206CD14C00391755 /* AppDelegate.swift in Sources */,
 				AAB450FD206CD14C00391755 /* PushNotificationsHomework.xcdatamodeld in Sources */,
 			);
