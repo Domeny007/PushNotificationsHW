@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  OutSideInsidePushNotifications
+//  PushNotificationsHomework
 //
-//  Created by Ildar Zalyalov on 25.03.2018.
-//  Copyright © 2018 iOSLab. All rights reserved.
+//  Created by Азат Алекбаев on 29.03.2018.
+//  Copyright © 2018 Азат Алекбаев. All rights reserved.
 //
 
 import UIKit
